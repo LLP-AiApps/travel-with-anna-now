@@ -1,2 +1,5 @@
-# travel-with-anna-now
-Happy Birthday Anna — This App's For You. Travel With Anna Now.
+# Happy Birthday Anna
+
+This App’s For You — a year in her Italy.
+
+https://llp-aiapps.github.io/travel-with-anna-now/

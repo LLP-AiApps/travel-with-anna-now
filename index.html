@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Happy Birthday Anna — This App’s For You</title>
+  <meta name="theme-color" content="#1b1420" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg:#1b1420; --fg:#f3ead2; --muted:#b7ab96; --line:rgba(243,234,210,.14); --acc:#8b2e4a; }
+    * { box-sizing: border-box; }
+    html,body { margin:0; background:var(--bg); color:var(--fg); font-family:"Source Sans 3",sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+    .kicker { letter-spacing:.22em; text-transform:uppercase; font-size:12px; color:var(--muted); }
+    h1 { font-family: Fraunces, Georgia, serif; font-size: clamp(2.4rem, 8vw, 4.2rem); line-height:1.05; margin:.4em 0 0; font-weight:500; }
+    h2 { font-family: Fraunces, Georgia, serif; font-size: clamp(1.4rem, 4vw, 2rem); font-weight:500; margin:.4em 0 0; }
+    .hero { display:flex; gap:16px; align-items:flex-end; }
+    .hero img { width:96px; height:96px; border-radius:50%; object-fit:cover; }
+    p { color:var(--muted); line-height:1.55; font-size:1.05rem; }
+    .tag { color:var(--fg); font-family: Fraunces, Georgia, serif; font-size:1.25rem; }
+    video { width:100%; border-radius:12px; background:#0e0a12; margin-top:24px; aspect-ratio:16/9; }
+    .how { border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin-top:28px; }
+    .how ol { margin:12px 0 0; padding-left:1.1em; }
+    .how li { margin:8px 0; color:var(--fg); }
+    .grid { display:grid; grid-template-columns: repeat(2,1fr); gap:12px; margin-top:16px; }
+    @media(min-width:640px){ .grid { grid-template-columns: repeat(3,1fr); } }
+    figure { margin:0; }
+    figure img { width:100%; aspect-ratio:1; object-fit:cover; border-radius:8px; display:block; }
+    figcaption { font-size:12px; color:var(--muted); margin-top:6px; }
+    .foot { text-align:center; font-size:12px; color:#8a7d70; margin-top:36px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="hero">
+      <img src="anna.jpg" alt="Anna Hensley" />
+      <div>
+        <p class="kicker">September 19, 1967 · Las Vegas</p>
+        <h1>Happy Birthday Anna</h1>
+      </div>
+    </div>
+    <h2>This App’s For You</h2>
+    <p>Why: because nobody else answers at 3 a.m. when the train is cancelled. Sixth Italy. Rome again. Cinque Terre the first time. Then Florence — Vivoli, an affogato, a croissant on the paper map, and a walk before the plane.</p>
+    <p class="tag">You take the people. Luigi takes the bags.</p>
+    <video src="year.mp4" poster="vivoli.jpg" autoplay muted loop playsinline controls></video>
+    <div class="how">
+      <p class="kicker">How she plays</p>
+      <ol>
+        <li>Hold <strong>D</strong> or the right arrow. Walk. Don’t tap.</li>
+        <li>Walk to Luigi — wine vest, no cap. Press <strong>E</strong>. He takes the bags.</li>
+        <li>Keep going right. Don’t rush. He stays a step behind.</li>
+        <li>Guests follow you. Bags follow him. Get everyone to the flag.</li>
+      </ol>
+    </div>
+    <p class="kicker" style="margin-top:32px">Her Italy, 2026</p>
+    <div class="grid">
+      <figure><img src="vivoli.jpg" alt="" /><figcaption>Vivoli — dal 1930</figcaption></figure>
+      <figure><img src="gelato-door.jpg" alt="" /><figcaption>Il Gelato, number 7</figcaption></figure>
+      <figure><img src="affogato.jpg" alt="" /><figcaption>The affogato</figcaption></figure>
+      <figure><img src="croissant.jpg" alt="" /><figcaption>Florence in pills</figcaption></figure>
+      <figure><img src="ricasoli.jpg" alt="" /><figcaption>Spagnoli 1888</figcaption></figure>
+      <figure><img src="spritz.jpg" alt="" /><figcaption>You’re in Florence. Tu ’sse!</figcaption></figure>
+      <figure><img src="garden.jpg" alt="" /><figcaption>The path</figcaption></figure>
+      <figure><img src="pasticceria.jpg" alt="" /><figcaption>Pasta €1,50</figcaption></figure>
+      <figure><img src="tower.jpg" alt="" /><figcaption>A Florence morning</figcaption></figure>
+      <figure><img src="buchetta.jpg" alt="" /><figcaption>Do not leave the cups here</figcaption></figure>
+      <figure><img src="dino.jpg" alt="" /><figcaption>The unexpected</figcaption></figure>
+    </div>
+    <p class="foot">From Jerime · travel-with-anna-now · A year in her Italy</p>
+  </main>
+</body>
+</html>
